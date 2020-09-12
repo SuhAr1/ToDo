@@ -20,6 +20,7 @@ class Todo {
 		this.todoList.textContent = '';
 		this.todoCompleted.textContent = '';
 		this.todoData.forEach(this.createItem, this);
+		this.input.value = '';
 		this.addToStorage();
 	}
 
